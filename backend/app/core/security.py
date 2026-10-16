@@ -27,6 +27,7 @@ def create_access_token(
     expires_delta: Optional[timedelta] = None,
 ) -> str:
     """Generates a signed, short-lived JWT access token."""
+    import uuid
     now = datetime.now(timezone.utc)
     if expires_delta:
         expire = now + expires_delta
@@ -35,6 +36,7 @@ def create_access_token(
 
     to_encode: Dict[str, Any] = {
         "sub": str(subject),
+        "jti": str(uuid.uuid4()),
         "role": role,
         "society_id": str(society_id) if society_id else None,
         "exp": expire,
@@ -52,6 +54,7 @@ def create_refresh_token(
     expires_delta: Optional[timedelta] = None,
 ) -> str:
     """Generates a signed, long-lived JWT refresh token."""
+    import uuid
     now = datetime.now(timezone.utc)
     if expires_delta:
         expire = now + expires_delta
@@ -60,6 +63,7 @@ def create_refresh_token(
 
     to_encode: Dict[str, Any] = {
         "sub": str(subject),
+        "jti": str(uuid.uuid4()),
         "exp": expire,
         "iat": now,
         "type": "refresh",

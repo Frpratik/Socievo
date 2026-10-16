@@ -30,13 +30,13 @@ This checklist is the authoritative, persistent tracking document for the develo
 ---
 
 ## 📋 Phase 3: Identity, Authentication, and Tenant Isolation
-- [ ] User model, Argon2id password hashing, and JWT token service
-- [ ] Refresh token rotation, session tracking, and Redis token revocation
-- [ ] Auth endpoints: Register, Login, Refresh, Logout, Profile (`/api/v1/auth/*`)
-- [ ] Society and SocietyMembership models with wing and flat unit mappings
-- [ ] Multi-tenant isolation dependencies (`get_current_active_user`, `require_society_member`)
-- [ ] Society Admin verification and resident membership approval workflows
-- [ ] Unit & negative access-control integration tests for authentication and multi-tenancy
+- [x] User model, Argon2id password hashing, and JWT token service
+- [x] Refresh token rotation, session tracking, and Redis token revocation
+- [x] Auth endpoints: Register, Login, Refresh, Logout, Profile (`/api/v1/auth/*`)
+- [x] Society and SocietyMembership models with wing and flat unit mappings
+- [x] Multi-tenant isolation dependencies (`get_current_active_user`, `require_society_member`, `require_society_admin`)
+- [x] Society Admin verification and resident membership approval workflows
+- [x] Unit & negative access-control integration tests for authentication and multi-tenancy (14/14 tests passing)
 
 ---
 
