@@ -18,14 +18,14 @@ This checklist is the authoritative, persistent tracking document for the develo
 ---
 
 ## 📋 Phase 2: Foundation and Development Environment
-- [ ] Backend skeleton with FastAPI, Pydantic v2 Settings, and async SQLAlchemy 2.x
-- [ ] Database session management, Alembic migration framework initialized
-- [ ] Redis caching & token blacklist helper modules
-- [ ] Unified application logging, exception handlers, and standard API error schemas
-- [ ] Frontend setup: Next.js 14 App Router with TypeScript strict mode and Tailwind CSS
-- [ ] Docker Compose environment (`docker-compose.yml`) for PostgreSQL, Redis, backend, frontend
-- [ ] Health and readiness endpoints (`/api/v1/health`, `/api/v1/ready`)
-- [ ] Automated test baseline (pytest runner and sample test passing)
+- [x] Backend skeleton with FastAPI, Pydantic v2 Settings, and async SQLAlchemy 2.x
+- [x] Database session management, Alembic migration framework initialized
+- [x] Redis caching & token blacklist helper modules
+- [x] Unified application logging, exception handlers, and standard API error schemas
+- [x] Frontend setup: Next.js 14 App Router with TypeScript strict mode and Tailwind CSS
+- [x] Docker Compose environment (`docker-compose.yml`) for PostgreSQL, Redis, backend, frontend
+- [x] Health and readiness endpoints (`/api/v1/health`, `/api/v1/ready`)
+- [x] Automated test baseline (pytest runner and sample test passing — 10/10 passed)
 
 ---
 

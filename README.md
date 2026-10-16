@@ -1,11 +1,11 @@
-# SocietySaver — Group-Buying Marketplace for Residential Housing Societies
+# Socievo — Group-Buying Marketplace for Residential Housing Societies
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2014-black.svg?logo=next.js)](https://nextjs.org)
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791.svg?logo=postgresql)](https://www.postgresql.org)
 [![Redis](https://img.shields.io/badge/Cache-Redis-DC382D.svg?logo=redis)](https://redis.io)
 
-**SocietySaver** is an enterprise-grade, full-stack marketplace connecting residential housing societies across India with pre-vetted service vendors for volume-discounted home services (AC maintenance, deep cleaning, RO repair, pest control, car washing, etc.).
+**Socievo** is an enterprise-grade, full-stack marketplace connecting residential housing societies across India with pre-vetted service vendors for volume-discounted home services (AC maintenance, deep cleaning, RO repair, pest control, car washing, etc.).
 
 By aggregating demand from residents within the same gated community or apartment society, the platform unlocks tiered volume pricing, lowers vendor acquisition and logistics costs, and delivers transparent, auditable booking, payment, and scheduling workflows.
 
